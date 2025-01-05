@@ -8,7 +8,7 @@ keywords: Ultralytics YOLO11, detection, segmentation, classification, oriented 
 
 <img width="1024" src="https://github.com/ultralytics/docs/releases/download/0/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 
-!!! tip "Tasks"
+!!! tip "Specify Task for Inference with different Export formats"
 
    Ensure you explicitly specify the task when running inference with different export formats. For example, during model initialization, use `task="detect"` or one of the following tasks: `["segment", "pose", "obb"]`. For instance: `model = YOLO("path/to/model/file", task="segment")`.
 
